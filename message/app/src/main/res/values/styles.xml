@@ -1,0 +1,41 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" >-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">#FFFF</item>-->
+        <!--<item name="colorPrimaryDark">#3d3d3d</item>-->
+        <!--<item name="colorAccent">#2C83E3</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">-->
+        <!--<item name="android:background">#3d3d3d</item>-->
+        <!--<item name="android:titleTextStyle">@style/AppTheme.ActionBar.Text</item>-->
+        <!--<item name="android:height">30dp</item>-->
+    <!--</style>-->
+    <!--<style name="AppTheme.ActionBar.Text" parent="@android:style/TextAppearance">-->
+        <!--<item name="android:textColor">#000</item>-->
+        <!--<item name="android:textSize">18dp</item>-->
+    <!--</style>-->
+    <style name="myTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/myTheme.ActionBar</item>
+    </style>
+
+    <style name="myTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#FFF</item>
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+        <item name="android:height">20dp</item>
+    </style>
+
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">fonts/Asap-Regular.ttf</item>
+    </style>
+    <style name="firetheme" parent="FirebaseUI">
+    <!-- Required for sign-in flow styling -->
+    <item name="colorPrimary">#515151</item>
+    <item name="colorPrimaryDark">#383838</item>
+    <item name="colorAccent">#2C83E3</item>
+    </style>
+</resources>
